@@ -31,7 +31,7 @@ for action in actions:
             plt.title(f'{action} - {i:02d}')
             plt.legend()
             plt.show()
-
+# 1
 # Task 2: Extract Root Mean Square (RMS) from each axis of each data and generate the feature vector for training. The feature vector size will be 7x3 for walking, 7x3 for sitting, and 7x3 for jogging.
 
 # 初始化特征向量列表
