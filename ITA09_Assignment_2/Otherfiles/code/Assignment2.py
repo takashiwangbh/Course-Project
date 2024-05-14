@@ -84,8 +84,6 @@ axs[1].plot(data_a, color='red', label='A')
 axs[1].plot(new_data_b, color='blue', label='B')
 
 # 标记对应点
-# for i, j in matching_points:
-#     axs[1].plot([i, i], [data_a[i], new_data_b[i]], color='green')
 axs[1].legend()
 axs[1].set_title('Modified')
 
